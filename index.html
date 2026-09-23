@@ -3,182 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vaquexflix para Kodi</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Vaquexflix Kodi Repository</title>
   <style>
-    :root {
-      --primary: #e50914;
-      --primary-hover: #b80710;
-      --bg: #0c0d14;
-      --card-bg: rgba(23, 25, 38, 0.7);
-      --border: rgba(255, 255, 255, 0.08);
-      --text: #ffffff;
-      --text-muted: #9aa0a6;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: radial-gradient(circle at 50% 20%, #1a080a 0%, var(--bg) 70%);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-    .container {
-      max-width: 600px;
-      width: 100%;
-      background: var(--card-bg);
-      backdrop-filter: blur(16px);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 40px 32px;
-      text-align: center;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(229, 9, 20, 0.15);
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      background: rgba(229, 9, 20, 0.15);
-      border: 1px solid rgba(229, 9, 20, 0.3);
-      color: #ff4d58;
-      border-radius: 50px;
-      font-size: 13px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      letter-spacing: 0.5px;
-    }
-    h1 {
-      font-size: 42px;
-      font-weight: 800;
-      letter-spacing: -1px;
-      margin-bottom: 12px;
-      background: linear-gradient(135deg, #ffffff 40%, #ff4d58 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    p.subtitle {
-      color: var(--text-muted);
-      font-size: 16px;
-      line-height: 1.6;
-      margin-bottom: 32px;
-    }
-    .btn-download {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      background: linear-gradient(135deg, var(--primary) 0%, #ff2a37 100%);
-      color: #fff;
-      font-size: 18px;
-      font-weight: 600;
-      padding: 16px 36px;
-      border-radius: 14px;
-      text-decoration: none;
-      box-shadow: 0 10px 25px rgba(229, 9, 20, 0.4);
-      transition: all 0.25s ease;
-      width: 100%;
-      max-width: 380px;
-    }
-    .btn-download:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 15px 35px rgba(229, 9, 20, 0.6);
-      background: var(--primary-hover);
-    }
-    .steps-card {
-      margin-top: 36px;
-      background: rgba(0, 0, 0, 0.3);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      text-align: left;
-    }
-    .steps-card h2 {
-      font-size: 17px;
-      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f1016;
       color: #ffffff;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      padding: 24px;
+      margin: 0;
     }
-    ol.steps {
-      list-style: none;
-      counter-reset: step-counter;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    .box {
+      max-width: 650px;
+      margin: 20px auto;
+      background: #171923;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
-    ol.steps li {
-      counter-increment: step-counter;
-      position: relative;
-      padding-left: 36px;
-      font-size: 14px;
-      color: #d1d5db;
-      line-height: 1.5;
-    }
-    ol.steps li::before {
-      content: counter(step-counter);
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 24px;
-      height: 24px;
-      background: rgba(255, 255, 255, 0.1);
-      color: #fff;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    .url-box {
-      margin-top: 14px;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 10px 14px;
+    h1 { color: #e50914; margin-top: 0; }
+    p { color: #9aa0a6; line-height: 1.5; }
+    ul.files { list-style: none; padding: 0; margin: 20px 0; }
+    ul.files li { margin: 10px 0; }
+    ul.files a {
+      display: inline-block;
+      background: #252836;
+      color: #4da3ff;
+      padding: 12px 18px;
       border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
       font-family: monospace;
-      font-size: 13px;
-      color: #ff7b83;
-      word-break: break-all;
+      font-size: 15px;
     }
-    footer {
+    ul.files a.primary {
+      background: #e50914;
+      color: #fff;
+    }
+    ul.files a:hover { opacity: 0.9; }
+    .guide {
+      background: #0b0c10;
+      border-radius: 10px;
+      padding: 18px;
       margin-top: 24px;
-      font-size: 13px;
-      color: #6c727f;
+      border-left: 4px solid #e50914;
     }
+    .guide h3 { margin-top: 0; color: #fff; font-size: 16px; }
+    .guide ol { margin-left: 20px; color: #c5c7d0; font-size: 14px; line-height: 1.6; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="badge">KODI ADDON REPOSITORY</div>
-    <h1>Vaquexflix</h1>
-    <p class="subtitle">Complemento nativo de streaming multimedia para Kodi con actualizaciones automáticas.</p>
-    
-    <a href="repository.vaquexflix-1.0.0.zip" class="btn-download">
-      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      Descargar Instalador (.ZIP)
-    </a>
+  <div class="box">
+    <h1>Vaquexflix Kodi Repository</h1>
+    <p>Repositorio oficial de Vaquexflix para Kodi.</p>
 
-    <div class="steps-card">
-      <h2>Instalación en Kodi (3 pasos)</h2>
-      <ol class="steps">
-        <li>Descarga el archivo <b>repository.vaquexflix-1.0.0.zip</b> con el botón de arriba en tu dispositivo (PC, móvil o TV Box).</li>
-        <li>Abre Kodi &gt; <b>Ajustes (rueda dentada)</b> &gt; <b>Add-ons</b> &gt; <b>Instalar desde un archivo .zip</b> y selecciona el archivo descargado.</li>
-        <li>Ve a <b>Instalar desde repositorio</b> &gt; <b>Vaquexflix Repo</b> &gt; <b>Add-ons de programas</b> &gt; <b>Vaquexflix</b> e instálalo.</li>
+    <!-- Enlaces directos compatibles con el Gestor de Archivos (File Manager) de Kodi -->
+    <ul class="files">
+      <li><a class="primary" href="repository.vaquexflix-1.0.0.zip">repository.vaquexflix-1.0.0.zip</a></li>
+      <li><a href="repository.vaquexflix/">repository.vaquexflix/</a></li>
+      <li><a href="plugin.video.vaquexflix/">plugin.video.vaquexflix/</a></li>
+    </ul>
+
+    <div class="guide">
+      <h3>Cómo instalar desde Kodi (Add file source):</h3>
+      <ol>
+        <li>Ve a <b>Ajustes (engranaje)</b> &gt; <b>Gestor de archivos</b> &gt; <b>Añadir fuente</b>.</li>
+        <li>Haz clic en <b>&lt;Ninguno&gt;</b> y escribe exactamente: <b>https://mjma90.github.io/vaquexflix-repo/</b></li>
+        <li>Asigna el nombre <b>Vaquexflix</b> y presiona <b>OK</b>.</li>
+        <li>Vuelve al menú principal &gt; <b>Add-ons</b> &gt; <b>Instalar desde un archivo .zip</b> &gt; Selecciona <b>Vaquexflix</b>.</li>
+        <li>Haz clic en <b>repository.vaquexflix-1.0.0.zip</b> para instalarlo.</li>
+        <li>Luego ve a <b>Instalar desde repositorio</b> &gt; <b>Vaquexflix Repo</b> &gt; <b>Add-ons de programas</b> &gt; <b>Vaquexflix</b> &gt; <b>Instalar</b>.</li>
       </ol>
-      <div style="margin-top: 18px; font-size: 13px; color: var(--text-muted);">
-        <b>Enlace directo para Kodi File Manager (TV Box / Firestick):</b>
-        <div class="url-box">https://mjma90.github.io/vaquexflix-repo/</div>
-      </div>
     </div>
-
-    <footer>Vaquexflix © Marco.M • Todos los derechos reservados</footer>
   </div>
 </body>
 </html>

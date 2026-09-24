@@ -9,9 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mjma90/vaquexflix-addon/releases"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.0.3-E50914.svg?style=for-the-badge" alt="Versión 1.0.3" /></a>
-  <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
-  <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
+  <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20desde%20$1-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar desde $1 en Ko-fi" /></a>
 </p>
 
 ---
@@ -67,10 +65,9 @@
 ---
 
 ## ☕ Apoyo y Donaciones
+El desarrollo, mantenimiento y actualización continua de los servidores de **Vaquexflix** se realiza de manera independiente y gratuita para la comunidad.
 
-El desarrollo, mantenimiento y actualización continua de los enlaces y servidores de **Vaquexflix** se realiza de manera independiente y gratuita para la comunidad.
-
-Si el complemento te es útil y deseas apoyar el tiempo invertido en mejorarlo, puedes invitarme a un café mediante **PayPal o Tarjeta** en Ko-fi:
+Si el complemento te es útil y deseas apoyar el tiempo invertido en mejorarlo, puedes invitarme a un café **desde $1 USD** mediante **PayPal o Tarjeta** en Ko-fi:
 
 <p align="center">
   <a href="https://ko-fi.com/vaquexflix" target="_blank">
@@ -78,7 +75,7 @@ Si el complemento te es útil y deseas apoyar el tiempo invertido en mejorarlo, 
   </a>
 </p>
 
-> *Cualquier aporte, por pequeño que sea, ayuda enormemente a cubrir costes y dedicar más horas a nuevas funciones y estabilidad.*
+> *Cualquier aporte, por pequeño que sea (desde $1 USD), ayuda enormemente a cubrir costes de servidores y dedicar más horas a nuevas funciones y estabilidad.*
 
 ---
 

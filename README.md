@@ -20,7 +20,15 @@
 
 **Vaquexflix** es un complemento (*addon*) desarrollado en Python para Kodi con interfaz visual interactiva personalizada (**Skin WindowXML**), diseñada para ofrecer una experiencia rápida, fluida y estética tipo plataforma de streaming (Netflix/HBO) sin ralentizaciones ni depender de skins pesadas.
 
+> [!IMPORTANT]
+> **Complemento para Kodi**: Vaquexflix **no funciona de manera independiente** (no es un programa ejecutable autónomo ni una app independiente). Funciona única y exclusivamente dentro de [Kodi](https://kodi.tv) (compatible con Kodi 19 Matrix, 20 Nexus y 21 Omega).
+
 ---
+
+## 🎮 Diseñado para Gamepad y Sistemas Retro
+
+- **Navegación 100% con Mando**: Pensado específicamente para controlarse con **gamepads** (mandos de Xbox, PlayStation, mandos USB/Bluetooth) o mandos a distancia de TV Box, sin necesidad de teclado ni ratón. Dispone de atajos directos en pantalla para cada botón.
+- **Ideal para Batocera, RetroBat y Centros Multimedia**: Compatible con la versión de Kodi preinstalada en sistemas de emulación como **Batocera Linux**, **RetroBat** (Windows), **Recalbox**, etc. Puedes pasar de tus videojuegos favoritos a disfrutar de películas y series utilizando el mismo mando.
 
 ## ⚙️ ¿Cómo funciona el Addon?
 

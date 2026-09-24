@@ -1,7 +1,7 @@
 # 🎬 Vaquexflix para Kodi
 
 <p align="center">
-  <img src="resources/media/icon.png" alt="Vaquexflix Logo" width="160" />
+  <img src="icon.png" alt="Vaquexflix Logo" width="160" />
 </p>
 
 <p align="center">

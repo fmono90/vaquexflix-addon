@@ -229,12 +229,12 @@
     <!-- Sección de Donaciones Ko-fi -->
     <div class="card donate-card">
       <h2 style="justify-content:center;">☕ Apoya el Proyecto Vaquexflix</h2>
-      <p>El desarrollo y mantenimiento de los servidores de Vaquexflix se realiza de manera independiente y gratuita. Puedes aportar desde 1 café en adelante mediante <b>PayPal o Tarjeta</b> de forma rápida y segura:</p>
+      <p>El desarrollo y mantenimiento de los servidores de Vaquexflix se realiza de manera independiente y gratuita. Puedes donar <b>desde $1 USD</b> mediante <b>PayPal o Tarjeta</b> directamente desde aquí sin salir de la página:</p>
       
-      <a href="https://ko-fi.com/vaquexflix" target="_blank" class="donate-btn">
+      <button type="button" class="donate-btn" onclick="openKofiModal()">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.047 3.974-4.047 3.974s-2.7-2.482-3.953-3.974c-1.332-1.589-1.077-3.693.447-4.544 1.523-.85 3.327-.089 3.506.495.179-.584 1.983-1.345 3.506-.495 1.524.851 1.779 2.955.447 4.544zm7.25-2.011c-.569 2.529-2.616 2.529-2.616 2.529v-5.058s2.047 0 2.616 2.529z"/></svg>
-        Apoyar en Ko-fi (PayPal o Tarjeta)
-      </a>
+        ☕ Apoyar en Ko-fi (desde $1 USD)
+      </button>
       <p style="margin-top: 14px; font-size: 0.85rem; color: #a1a6ba;">¡Muchísimas gracias por apoyar el desarrollo de Vaquexflix!</p>
     </div>
 
@@ -243,15 +243,88 @@
     </div>
   </div>
 
-  <!-- Widget Flotante de Ko-fi -->
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <!-- Modal Popup para pagar directamente en la misma página -->
+  <div id="kofi-modal" class="kofi-modal" onclick="if(event.target===this) closeKofiModal()">
+    <div class="kofi-modal-content">
+      <div class="kofi-modal-header">
+        <span>☕ Apoyar a Vaquexflix (desde $1 USD)</span>
+        <button type="button" class="kofi-close-btn" onclick="closeKofiModal()">&times;</button>
+      </div>
+      <iframe id="kofi-iframe" src="" style="width:100%; height:620px; border:none; background:#ffffff;" title="Vaquexflix Ko-fi"></iframe>
+    </div>
+  </div>
+
+  <style>
+    .donate-btn {
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+    .kofi-modal {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(5px);
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+    }
+    .kofi-modal.active {
+      display: flex;
+    }
+    .kofi-modal-content {
+      background: #181926;
+      border: 1px solid #33384c;
+      border-radius: 14px;
+      width: 100%;
+      max-width: 440px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+      animation: modalSlide 0.25s ease-out;
+    }
+    @keyframes modalSlide {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .kofi-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      background: #12131d;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-bottom: 1px solid #282b3d;
+    }
+    .kofi-close-btn {
+      background: none;
+      border: none;
+      color: #8f94a8;
+      font-size: 1.6rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0 4px;
+    }
+    .kofi-close-btn:hover {
+      color: #ff5e5b;
+    }
+  </style>
+
   <script>
-    kofiWidgetOverlay.draw('vaquexflix', {
-      'type': 'floating-chat',
-      'floating-chat.donateButton.text': 'Apoyar proyecto',
-      'floating-chat.donateButton.background-color': '#ff3344',
-      'floating-chat.donateButton.text-color': '#fff'
-    });
+    function openKofiModal() {
+      const modal = document.getElementById('kofi-modal');
+      const iframe = document.getElementById('kofi-iframe');
+      if (!iframe.src || iframe.src === 'about:blank' || iframe.src === window.location.href) {
+        iframe.src = 'https://ko-fi.com/vaquexflix/?hidefeed=true&widget=true&embed=true';
+      }
+      modal.classList.add('active');
+    }
+    function closeKofiModal() {
+      document.getElementById('kofi-modal').classList.remove('active');
+    }
   </script>
 </body>
 </html>

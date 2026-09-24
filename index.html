@@ -1,15 +1,247 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<html>
- <head>
-  <title>Index of /</title>
- </head>
- <body>
-<h1>Index of /</h1>
-<table>
-<tr><th>Name</th><th align="right">Last modified</th><th align="right">Size</th></tr>
-<tr><th colspan="3"><hr></th></tr>
-<tr><td><a href="plugin.video.vaquexflix-1.0.3.zip">plugin.video.vaquexflix-1.0.3.zip</a></td><td align="right">2026-09-23 23:55  </td><td align="right"> 2.3M</td></tr>
-<tr><th colspan="3"><hr></th></tr>
-</table>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaquexflix - Addon Oficial para Kodi</title>
+  <style>
+    :root {
+      --primary: #ff3344;
+      --primary-hover: #ff1f32;
+      --bg: #0d0e15;
+      --card-bg: #151722;
+      --card-border: #232638;
+      --text: #ffffff;
+      --text-muted: #9ea3b5;
+      --accent-paypal: #0070ba;
+      --accent-paypal-hover: #005ea6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 30px 15px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    .header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 51, 68, 0.15);
+      color: var(--primary);
+      border: 1px solid rgba(255, 51, 68, 0.3);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 14px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    li { margin-bottom: 6px; }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .feature-item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .feature-item strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+    /* Tabla compatible para escáner HTTP de Kodi */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      background: #0a0b10;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    th {
+      background: #10111a;
+      color: #7d8296;
+      font-weight: 600;
+    }
+    td a {
+      color: #4da3ff;
+      text-decoration: none;
+      font-family: monospace;
+      font-weight: bold;
+    }
+    td a:hover { text-decoration: underline; }
+    /* Botón de donación PayPal */
+    .donate-card {
+      background: linear-gradient(145deg, #151a28, #181d2c);
+      border: 1px solid rgba(0, 112, 186, 0.4);
+      text-align: center;
+      padding: 28px 20px;
+    }
+    .donate-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--accent-paypal);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 12px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      margin-top: 16px;
+      box-shadow: 0 4px 15px rgba(0, 112, 186, 0.4);
+    }
+    .donate-btn:hover {
+      background-color: var(--accent-paypal-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 112, 186, 0.6);
+    }
+    .code-box {
+      background: #090a0f;
+      border: 1px solid #1f2130;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: monospace;
+      color: #4da3ff;
+      word-break: break-all;
+      margin: 8px 0;
+      display: inline-block;
+      width: 100%;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #62667a;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>🎬 VAQUEXFLIX</h1>
+      <span class="badge">Versión 1.0.3 • Kodi 19 / 20 / 21</span>
+    </div>
+
+    <!-- ¿Cómo funciona el addon? -->
+    <div class="card">
+      <h2>✨ ¿Qué es y cómo funciona?</h2>
+      <p><b>Vaquexflix</b> es un complemento de streaming multimedia diseñado en Python con una interfaz nativa (WindowXML) optimizada para brindar una experiencia visual de catálogo cinematográfico.</p>
+      
+      <div class="features-grid">
+        <div class="feature-item">
+          <strong>🎬 Catálogo Dinámico</strong>
+          <p>Películas y series organizadas por categorías con carátulas en alta definición y sinopsis interactiva.</p>
+        </div>
+        <div class="feature-item">
+          <strong>⚡ Interfaz Fluida</strong>
+          <p>Ventana personalizada y ultraligera que funciona con máxima velocidad en cualquier TV Box o PC.</p>
+        </div>
+        <div class="feature-item">
+          <strong>📌 Reanudación y Favoritos</strong>
+          <p>Guarda tu historial, puntos de reproducción para continuar donde lo dejaste y lista personalizada.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instalador directo compatible con Kodi -->
+    <div class="card">
+      <h2>📦 Descargas e Instalador de Kodi</h2>
+      <p>Kodi detecta automáticamente el instalador directo en esta ubicación:</p>
+      <table>
+        <tr><th>Name</th><th align="right">Last modified</th><th align="right">Size</th></tr>
+        <tr><th colspan="3"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
+        <tr>
+          <td><a href="plugin.video.vaquexflix-1.0.3.zip">plugin.video.vaquexflix-1.0.3.zip</a></td>
+          <td align="right">2026-09-23 23:55</td>
+          <td align="right">2.3M</td>
+        </tr>
+        <tr><th colspan="3"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
+      </table>
+    </div>
+
+    <!-- Guía de Instalación -->
+    <div class="card">
+      <h2>🚀 Instalación Paso a Paso</h2>
+      <ol>
+        <li>En Kodi, ve a <b>Ajustes (icono de engranaje)</b> &gt; <b>Gestor de archivos</b> &gt; <b>Añadir fuente</b>.</li>
+        <li>Haz clic en <b>&lt;Ninguno&gt;</b> y escribe exactamente:
+          <div class="code-box">https://mjma90.github.io/vaquexflix-addon/</div>
+        </li>
+        <li>Ponle como nombre <b>Vaquexflix</b> y presiona <b>OK</b>.</li>
+        <li>Vuelve al inicio de Kodi &gt; <b>Add-ons</b> &gt; pulsa el icono de caja (Instalador) &gt; <b>Instalar desde un archivo .zip</b>.</li>
+        <li>Selecciona la fuente <b>Vaquexflix</b> y luego pulsa en <b>plugin.video.vaquexflix-1.0.3.zip</b>.</li>
+      </ol>
+    </div>
+
+    <!-- Sección de Donaciones PayPal -->
+    <div class="card donate-card">
+      <h2 style="justify-content:center;">☕ Apoya el Proyecto</h2>
+      <p>El desarrollo y mantenimiento continuo de Vaquexflix se realiza de manera independiente y gratuita. Si disfrutas del addon y deseas contribuir al proyecto para nuevos servidores y mejoras:</p>
+      
+      <a href="https://paypal.me/mjma90" target="_blank" class="donate-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.78.78 0 0 1 .77-.654h6.58c3.21 0 5.485 1.547 5.093 5.347-.367 3.553-2.618 5.474-5.914 5.474H8.76l-1.042 6.787a.64.641 0 0 1-.642.663zm1.884-9.35h2.155c2.09 0 3.39-.982 3.633-3.082.23-2.023-.942-3.037-3.047-3.037H8.228L7.49 11.987h1.47z"/></svg>
+        Hacer una Donación con PayPal
+      </a>
+      <p style="margin-top: 12px; font-size: 0.85rem; color: #7f859a;">¡Muchísimas gracias por tu apoyo!</p>
+    </div>
+
+    <div class="footer">
+      <p>Vaquexflix no aloja contenidos multimedia. Diseñado para fines educativos.</p>
+    </div>
+  </div>
+
 </body>
 </html>

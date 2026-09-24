@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/mjma90/vaquexflix-addon/releases"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.0.3-E50914.svg?style=for-the-badge" alt="Versión 1.0.3" /></a>
   <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
-  <a href="https://paypal.me/mjma90"><img src="https://img.shields.io/badge/Donar-PayPal-00457C.svg?style=for-the-badge&logo=paypal&logoColor=white" alt="Donar con PayPal" /></a>
+  <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
 </p>
 
 ---
@@ -70,11 +70,11 @@
 
 El desarrollo, mantenimiento y actualización continua de los enlaces y servidores de **Vaquexflix** se realiza de manera independiente y gratuita para la comunidad.
 
-Si el complemento te es útil y deseas apoyar el tiempo invertido en mejorarlo:
+Si el complemento te es útil y deseas apoyar el tiempo invertido en mejorarlo, puedes invitarme a un café mediante **PayPal o Tarjeta** en Ko-fi:
 
 <p align="center">
-  <a href="https://paypal.me/mjma90" target="_blank">
-    <img src="https://img.shields.io/badge/Apoyar%20con%20PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="42" alt="Donar vía PayPal" />
+  <a href="https://ko-fi.com/vaquexflix" target="_blank">
+    <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" height="42" alt="Buy Me a Coffee at ko-fi.com" />
   </a>
 </p>
 

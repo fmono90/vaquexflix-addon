@@ -119,10 +119,10 @@
       font-weight: bold;
     }
     td a:hover { text-decoration: underline; }
-    /* Botón de donación PayPal */
+    /* Botón de donación Ko-fi */
     .donate-card {
-      background: linear-gradient(145deg, #151a28, #181d2c);
-      border: 1px solid rgba(0, 112, 186, 0.4);
+      background: linear-gradient(145deg, #181926, #1f2133);
+      border: 1px solid rgba(255, 94, 91, 0.35);
       text-align: center;
       padding: 28px 20px;
     }
@@ -131,21 +131,21 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
-      background-color: var(--accent-paypal);
+      background-color: #ff5e5b;
       color: #ffffff;
       font-weight: 700;
-      font-size: 1rem;
-      padding: 12px 28px;
+      font-size: 1.05rem;
+      padding: 13px 30px;
       border-radius: 50px;
       text-decoration: none;
       transition: all 0.2s ease;
       margin-top: 16px;
-      box-shadow: 0 4px 15px rgba(0, 112, 186, 0.4);
+      box-shadow: 0 4px 18px rgba(255, 94, 91, 0.4);
     }
     .donate-btn:hover {
-      background-color: var(--accent-paypal-hover);
+      background-color: #e54b48;
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0, 112, 186, 0.6);
+      box-shadow: 0 6px 24px rgba(255, 94, 91, 0.6);
     }
     .code-box {
       background: #090a0f;
@@ -205,7 +205,7 @@
         <tr><th colspan="3"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
         <tr>
           <td><a href="plugin.video.vaquexflix-1.0.3.zip">plugin.video.vaquexflix-1.0.3.zip</a></td>
-          <td align="right">2026-09-23 23:55</td>
+          <td align="right">2026-09-24 02:45</td>
           <td align="right">2.3M</td>
         </tr>
         <tr><th colspan="3"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
@@ -226,16 +226,16 @@
       </ol>
     </div>
 
-    <!-- Sección de Donaciones PayPal -->
+    <!-- Sección de Donaciones Ko-fi -->
     <div class="card donate-card">
-      <h2 style="justify-content:center;">☕ Apoya el Proyecto</h2>
-      <p>El desarrollo y mantenimiento continuo de Vaquexflix se realiza de manera independiente y gratuita. Si disfrutas del addon y deseas contribuir al proyecto para nuevos servidores y mejoras:</p>
+      <h2 style="justify-content:center;">☕ Apoya el Proyecto Vaquexflix</h2>
+      <p>El desarrollo y mantenimiento de los servidores de Vaquexflix se realiza de manera independiente y gratuita. Puedes aportar desde 1 café en adelante mediante <b>PayPal o Tarjeta</b> de forma rápida y segura:</p>
       
-      <a href="https://paypal.me/mjma90" target="_blank" class="donate-btn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.78.78 0 0 1 .77-.654h6.58c3.21 0 5.485 1.547 5.093 5.347-.367 3.553-2.618 5.474-5.914 5.474H8.76l-1.042 6.787a.64.641 0 0 1-.642.663zm1.884-9.35h2.155c2.09 0 3.39-.982 3.633-3.082.23-2.023-.942-3.037-3.047-3.037H8.228L7.49 11.987h1.47z"/></svg>
-        Hacer una Donación con PayPal
+      <a href="https://ko-fi.com/vaquexflix" target="_blank" class="donate-btn">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.047 3.974-4.047 3.974s-2.7-2.482-3.953-3.974c-1.332-1.589-1.077-3.693.447-4.544 1.523-.85 3.327-.089 3.506.495.179-.584 1.983-1.345 3.506-.495 1.524.851 1.779 2.955.447 4.544zm7.25-2.011c-.569 2.529-2.616 2.529-2.616 2.529v-5.058s2.047 0 2.616 2.529z"/></svg>
+        Apoyar en Ko-fi (PayPal o Tarjeta)
       </a>
-      <p style="margin-top: 12px; font-size: 0.85rem; color: #7f859a;">¡Muchísimas gracias por tu apoyo!</p>
+      <p style="margin-top: 14px; font-size: 0.85rem; color: #a1a6ba;">¡Muchísimas gracias por apoyar el desarrollo de Vaquexflix!</p>
     </div>
 
     <div class="footer">
@@ -243,5 +243,15 @@
     </div>
   </div>
 
+  <!-- Widget Flotante de Ko-fi -->
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('vaquexflix', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Apoyar proyecto',
+      'floating-chat.donateButton.background-color': '#ff3344',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
 </body>
 </html>

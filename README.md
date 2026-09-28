@@ -60,7 +60,7 @@
 5. Regresa al menú principal de Kodi > **Add-ons** > entra al icono de la caja (**Instalador de complementos**).
 6. Selecciona **Instalar desde un archivo .zip**.
    *(Si Kodi te pide habilitar "Orígenes desconocidos", actívalo en Ajustes > Sistema > Add-ons).*
-7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.0.4.zip`**.
+7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.0.5.zip`**.
 8. ¡Listo! En segundos aparecerá la notificación de instalación completada.
 
 ---
@@ -68,7 +68,7 @@
 ### Método 2: Descarga Manual
 
 1. Descarga el paquete `.zip` más reciente directamente desde:
-   👉 **[Descargar plugin.video.vaquexflix-1.0.4.zip](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.0.4.zip)**
+   👉 **[Descargar plugin.video.vaquexflix-1.0.5.zip](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.0.5.zip)**
 2. En Kodi, ve a **Add-ons** > **Instalador (icono de caja)** > **Instalar desde un archivo .zip**.
 3. Busca la carpeta donde guardaste el archivo descargado y selecciónalo para instalar.
 

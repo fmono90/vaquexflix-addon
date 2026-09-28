@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/fmono90/vaquexflix-addon/releases"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.0.4-E50914.svg?style=for-the-badge" alt="Versión 1.0.4" /></a>
+  <a href="https://github.com/fmono90/vaquexflix-addon/releases"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.0.5-E50914.svg?style=for-the-badge" alt="Versión 1.0.5" /></a>
   <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
   <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
 </p>

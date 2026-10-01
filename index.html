@@ -120,18 +120,24 @@
       font-size: 0.95rem;
     }
     /* Tabla compatible para escáner HTTP de Kodi */
+    .table-container {
+      overflow-x: auto;
+      margin-top: 12px;
+      border-radius: 8px;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 12px;
       background: #0a0b10;
       border-radius: 8px;
       overflow: hidden;
+      white-space: nowrap;
     }
     th, td {
       padding: 12px 14px;
       text-align: left;
       font-size: 0.9rem;
+      white-space: nowrap;
     }
     th {
       background: #10111a;
@@ -247,29 +253,31 @@
     <div class="card">
       <h2>📦 Descargas e Instalador de Kodi</h2>
       <p>Kodi y los usuarios pueden descargar el complemento directamente en las siguientes versiones:</p>
-      <table>
-        <tr><th>Archivo / Versión</th><th align="right">Fecha</th><th align="right">Tamaño</th><th align="center">Descarga</th></tr>
-        <tr><th colspan="4"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
-        <tr style="background: rgba(255, 51, 68, 0.07);">
-          <td>
-            <a href="plugin.video.vaquexflix-1.0.6.zip">plugin.video.vaquexflix-1.0.6.zip</a>
-            <span style="background:rgba(255,51,68,0.25);color:#ff5e6c;border:1px solid rgba(255,51,68,0.4);font-size:0.75rem;padding:2px 7px;border-radius:10px;margin-left:8px;font-weight:600;">v1.0.6 (Recomendada)</span>
-          </td>
-          <td align="right">2026-09-30</td>
-          <td align="right">2.3M</td>
-          <td align="center"><a href="plugin.video.vaquexflix-1.0.6.zip" style="background:#ff3344;color:#fff;padding:4px 12px;border-radius:6px;font-size:0.8rem;text-decoration:none;font-weight:600;">Descargar</a></td>
-        </tr>
-        <tr>
-          <td>
-            <a href="plugin.video.vaquexflix-1.0.5.zip">plugin.video.vaquexflix-1.0.5.zip</a>
-            <span style="background:rgba(255,255,255,0.08);color:#9ea3b5;border:1px solid rgba(255,255,255,0.1);font-size:0.75rem;padding:2px 7px;border-radius:10px;margin-left:8px;">v1.0.5 (Anterior)</span>
-          </td>
-          <td align="right">2026-09-28</td>
-          <td align="right">2.3M</td>
-          <td align="center"><a href="plugin.video.vaquexflix-1.0.5.zip" style="background:#232638;color:#ddd;padding:4px 12px;border-radius:6px;font-size:0.8rem;text-decoration:none;">Descargar</a></td>
-        </tr>
-        <tr><th colspan="4"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
-      </table>
+      <div class="table-container">
+        <table>
+          <tr><th>Archivo / Versión</th><th align="right">Fecha</th><th align="right">Tamaño</th><th align="center">Descarga</th></tr>
+          <tr><th colspan="4"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
+          <tr style="background: rgba(255, 51, 68, 0.07);">
+            <td>
+              <a href="plugin.video.vaquexflix-1.0.6.zip">plugin.video.vaquexflix-1.0.6.zip</a>
+              <span style="background:rgba(255,51,68,0.22);color:#ff5e6c;border:1px solid rgba(255,51,68,0.45);font-size:0.75rem;padding:2px 8px;border-radius:12px;margin-left:8px;font-weight:600;display:inline-block;white-space:nowrap;">Recomendada</span>
+            </td>
+            <td align="right">2026-09-30</td>
+            <td align="right">2.3M</td>
+            <td align="center"><a href="plugin.video.vaquexflix-1.0.6.zip" style="background:#ff3344;color:#fff;padding:4px 12px;border-radius:6px;font-size:0.8rem;text-decoration:none;font-weight:600;white-space:nowrap;">Descargar</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="plugin.video.vaquexflix-1.0.5.zip">plugin.video.vaquexflix-1.0.5.zip</a>
+              <span style="background:rgba(255,255,255,0.08);color:#9ea3b5;border:1px solid rgba(255,255,255,0.15);font-size:0.75rem;padding:2px 8px;border-radius:12px;margin-left:8px;font-weight:500;display:inline-block;white-space:nowrap;">Anterior</span>
+            </td>
+            <td align="right">2026-09-28</td>
+            <td align="right">2.3M</td>
+            <td align="center"><a href="plugin.video.vaquexflix-1.0.5.zip" style="background:#232638;color:#ddd;padding:4px 12px;border-radius:6px;font-size:0.8rem;text-decoration:none;white-space:nowrap;">Descargar</a></td>
+          </tr>
+          <tr><th colspan="4"><hr style="border:0;border-top:1px solid #232638;"></th></tr>
+        </table>
+      </div>
     </div>
 
     <!-- Guía de Instalación -->

@@ -1,7 +1,7 @@
 # 🎬 Vaquexflix para Kodi
 
 <p align="center">
-  <img src="icon.png" alt="Vaquexflix Logo" width="160" />
+  <img src="icon.png?v=69e4f3e8" alt="Vaquexflix Logo" width="160" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/fmono90/vaquexflix-addon/releases"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.1.3-E50914.svg?style=for-the-badge" alt="Versión 1.1.3" /></a>
+  <a href="https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.0~beta.1.zip"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.2.0%20beta%201-E50914.svg?style=for-the-badge" alt="Versión 1.2.0 beta 1" /></a>
   <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
   <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
 </p>
@@ -60,7 +60,7 @@
 5. Regresa al menú principal de Kodi > **Add-ons** > entra al icono de la caja (**Instalador de complementos**).
 6. Selecciona **Instalar desde un archivo .zip**.
    *(Si Kodi te pide habilitar "Orígenes desconocidos", actívalo en Ajustes > Sistema > Add-ons).*
-7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.1.3.zip`**.
+7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.2.0~beta.1.zip`**.
 8. ¡Listo! En segundos aparecerá la notificación de instalación completada.
 
 ---
@@ -68,7 +68,7 @@
 ### Método 2: Descarga Manual
 
 1. Descarga el paquete `.zip` directamente:
-   - 🌟 **[Descargar plugin.video.vaquexflix-1.1.3.zip (Versión 1.1.3)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.1.3.zip)**
+   - 🌟 **[Descargar plugin.video.vaquexflix-1.2.0~beta.1.zip (Versión 1.2.0 beta 1)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.0~beta.1.zip)**
 2. En Kodi, ve a **Add-ons** > **Instalador (icono de caja)** > **Instalar desde un archivo .zip**.
 3. Busca la carpeta donde guardaste el archivo descargado y selecciónalo para instalar.
 

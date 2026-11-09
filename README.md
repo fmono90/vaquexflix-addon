@@ -108,7 +108,3 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 ## ⚖️ Aviso Legal
 
 Este complemento no aloja ni distribuye ningún contenido multimedia en sus servidores propios. Actúa exclusivamente como un navegador e indexador de información pública disponible en la red.
-
-## Revision 1.1.3 — 2026-10-31
-
-Fuente: commit `5b9b382`. Premium conserva exclusivamente SoloLatino. Hackstore complementa los enlaces de su API con reproductores publicados en la ficha correspondiente de hackstore.fo. 132 pruebas automatizadas aprobadas; Vimeos resolvio un enlace real. La sesion actual de SoloLatino se probo en Android y desde un cliente aislado en Windows, pero puede caducar o no ser aceptada desde otra conexion. No se ha validado esta revision en Batocera.

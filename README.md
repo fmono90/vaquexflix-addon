@@ -110,4 +110,4 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 > [!IMPORTANT]
 > **Vaquexflix no aloja, almacena, sube, retransmite ni distribuye ningún material audiovisual ni archivos multimedia en ningún servidor propio ni de terceros.**
 
-Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Vaquexflix no controla, edita ni garantiza la disponibilidad o legalidad de los servidores externos de terceros, y todo el material reproducido procede de fuentes ajenas al proyecto. Cada usuario es responsable del uso que haga de esta herramienta de acuerdo con las leyes vigentes en su jurisdicción.
+Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Vaquexflix no controla, edita ni garantiza la disponibilidad o legalidad de los servidores externos de terceros; todo el material reproducido procede de fuentes ajenas al proyecto, por lo tanto cada usuario es responsable del uso que haga de esta herramienta de acuerdo con las leyes vigentes en su jurisdicción.

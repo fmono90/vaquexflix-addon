@@ -105,14 +105,13 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 
 ---
 
-## ⚖️ Aviso Legal
+## ⚖️ Aviso Legal y Descargo de Responsabilidad
 
-Este complemento no aloja ni distribuye ningún contenido multimedia en sus servidores propios. Actúa exclusivamente como un navegador e indexador de información pública disponible en la red.
+> [!IMPORTANT]
+> **Vaquexflix no aloja, almacena, sube, retransmite ni distribuye ningún material audiovisual ni archivos multimedia en ningún servidor propio ni de terceros.**
+
+Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Vaquexflix no controla, edita ni garantiza la disponibilidad o legalidad de los servidores externos de terceros, y todo el material reproducido procede de fuentes ajenas al proyecto. Cada usuario es responsable del uso que haga de esta herramienta de acuerdo con las leyes vigentes en su jurisdicción.
 
 ## Revision 1.2.1 — 2026-11-12
 
-Fuente: commit `3636265`. Incluye integración de NOVA, Archive.org, FrikiSeries, PelisPanda, MegaDedeOficial y Argflix; optimización de sondeo por idioma con caché aislada; etiquetas `[resolución · CAM]`; reproducción VOD YouTube vía DASH estático fMP4 con cierre limpio y respaldo automático en modo Normal. 499 pruebas automatizadas aprobadas en Windows.
-
-## Revision 1.1.3 — 2026-10-31
-
-Fuente: commit `5b9b382`. Premium conserva exclusivamente SoloLatino. Hackstore complementa los enlaces de su API con reproductores publicados en la ficha correspondiente de hackstore.fo. 132 pruebas automatizadas aprobadas; Vimeos resolvio un enlace real. La sesion actual de SoloLatino se probo en Android y desde un cliente aislado en Windows, pero puede caducar o no ser aceptada desde otra conexion. No se ha validado esta revision en Batocera.
+Versión estable `1.2.1` publicada en el repositorio. Incluye integración de NOVA, Archive.org, FrikiSeries, PelisPanda, MegaDedeOficial y Argflix; optimización de sondeo por idioma con caché aislada; etiquetas `[resolución · CAM]`; reproducción VOD YouTube vía DASH estático fMP4 con cierre limpio y respaldo automático en modo Normal. 499 pruebas automatizadas aprobadas en Windows.

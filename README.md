@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.0~beta.5.zip"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.2.0%20beta%205-E50914.svg?style=for-the-badge" alt="Versión 1.2.0 beta 5" /></a>
+  <a href="https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.1.zip"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.2.1-E50914.svg?style=for-the-badge" alt="Versión 1.2.1" /></a>
   <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
   <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
 </p>
@@ -30,7 +30,7 @@
 - TV en vivo con canales por categorías y guía de programación EPG.
 - Buscador de vídeos con favoritos, listas de reproducción y controles de modo aleatorio y repetición.
 - Reproducción automática de películas y episodios con un indicador inmediato de preparación.
-- Versión 1.2.0 beta 5 para pruebas: NOVA, mejoras de TV y cambio de servidor durante la reproducción.
+- Versión 1.2.1 estable: fuentes integradas al catálogo, reproducción YouTube DASH estática sin desfase de audio, sondeo incremental por idioma y respaldo automático en modo Normal.
 
 ## 🎮 Diseñado para Gamepad y Sistemas Retro
 
@@ -67,7 +67,7 @@
 5. Regresa al menú principal de Kodi > **Add-ons** > entra al icono de la caja (**Instalador de complementos**).
 6. Selecciona **Instalar desde un archivo .zip**.
    *(Si Kodi te pide habilitar "Orígenes desconocidos", actívalo en Ajustes > Sistema > Add-ons).*
-7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.2.0~beta.5.zip`**.
+7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.2.1.zip`**.
 8. ¡Listo! En segundos aparecerá la notificación de instalación completada.
 
 ---
@@ -75,7 +75,7 @@
 ### Método 2: Descarga Manual
 
 1. Descarga el paquete `.zip` directamente:
-   - 🌟 **[Descargar plugin.video.vaquexflix-1.2.0~beta.5.zip (Versión 1.2.0 beta 5)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.0~beta.5.zip)**
+   - 🌟 **[Descargar plugin.video.vaquexflix-1.2.1.zip (Versión 1.2.1)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.1.zip)**
 2. En Kodi, ve a **Add-ons** > **Instalador (icono de caja)** > **Instalar desde un archivo .zip**.
 3. Busca la carpeta donde guardaste el archivo descargado y selecciónalo para instalar.
 
@@ -108,6 +108,10 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 ## ⚖️ Aviso Legal
 
 Este complemento no aloja ni distribuye ningún contenido multimedia en sus servidores propios. Actúa exclusivamente como un navegador e indexador de información pública disponible en la red.
+
+## Revision 1.2.1 — 2026-11-12
+
+Fuente: commit `3636265`. Incluye integración de NOVA, Archive.org, FrikiSeries, PelisPanda, MegaDedeOficial y Argflix; optimización de sondeo por idioma con caché aislada; etiquetas `[resolución · CAM]`; reproducción VOD YouTube vía DASH estático fMP4 con cierre limpio y respaldo automático en modo Normal. 499 pruebas automatizadas aprobadas en Windows.
 
 ## Revision 1.1.3 — 2026-10-31
 

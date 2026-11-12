@@ -111,7 +111,3 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 > **Vaquexflix no aloja, almacena, sube, retransmite ni distribuye ningún material audiovisual ni archivos multimedia en ningún servidor propio ni de terceros.**
 
 Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Vaquexflix no controla, edita ni garantiza la disponibilidad o legalidad de los servidores externos de terceros, y todo el material reproducido procede de fuentes ajenas al proyecto. Cada usuario es responsable del uso que haga de esta herramienta de acuerdo con las leyes vigentes en su jurisdicción.
-
-## Revision 1.2.1 — 2026-11-12
-
-Versión estable `1.2.1` publicada en el repositorio. Incluye integración de NOVA, Archive.org, FrikiSeries, PelisPanda, MegaDedeOficial y Argflix; optimización de sondeo por idioma con caché aislada; etiquetas `[resolución · CAM]`; reproducción VOD YouTube vía DASH estático fMP4 con cierre limpio y respaldo automático en modo Normal. 499 pruebas automatizadas aprobadas en Windows.

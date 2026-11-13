@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.1.zip"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.2.1-E50914.svg?style=for-the-badge" alt="Versión 1.2.1" /></a>
+  <a href="https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.2.zip"><img src="https://img.shields.io/badge/Versi%C3%B3n-1.2.2-E50914.svg?style=for-the-badge" alt="Versión 1.2.2" /></a>
   <a href="https://kodi.tv"><img src="https://img.shields.io/badge/Kodi-19%20%7C%2020%20%7C%2021-17B2E7.svg?style=for-the-badge&logo=kodi&logoColor=white" alt="Kodi 19, 20, 21" /></a>
   <a href="https://ko-fi.com/vaquexflix"><img src="https://img.shields.io/badge/Ko--fi-Apoyar%20Proyecto-FF5E5B.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Apoyar en Ko-fi" /></a>
 </p>
@@ -67,7 +67,7 @@
 5. Regresa al menú principal de Kodi > **Add-ons** > entra al icono de la caja (**Instalador de complementos**).
 6. Selecciona **Instalar desde un archivo .zip**.
    *(Si Kodi te pide habilitar "Orígenes desconocidos", actívalo en Ajustes > Sistema > Add-ons).*
-7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.2.1.zip`**.
+7. Elige la fuente **Vaquexflix** y selecciona el archivo **`plugin.video.vaquexflix-1.2.2.zip`**.
 8. ¡Listo! En segundos aparecerá la notificación de instalación completada.
 
 ---
@@ -75,7 +75,7 @@
 ### Método 2: Descarga Manual
 
 1. Descarga el paquete `.zip` directamente:
-   - 🌟 **[Descargar plugin.video.vaquexflix-1.2.1.zip (Versión 1.2.1)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.1.zip)**
+   - 🌟 **[Descargar plugin.video.vaquexflix-1.2.2.zip (Versión 1.2.2)](https://fmono90.github.io/vaquexflix-addon/plugin.video.vaquexflix-1.2.2.zip)**
 2. En Kodi, ve a **Add-ons** > **Instalador (icono de caja)** > **Instalar desde un archivo .zip**.
 3. Busca la carpeta donde guardaste el archivo descargado y selecciónalo para instalar.
 
@@ -110,4 +110,4 @@ Si te es de utilidad la aplicación y te gustaría que mantenga soporte y nuevas
 > [!IMPORTANT]
 > **Vaquexflix no aloja, almacena, sube, retransmite ni distribuye ningún material audiovisual ni archivos multimedia en ningún servidor propio ni de terceros.**
 
-Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Vaquexflix no controla, edita ni garantiza la disponibilidad o legalidad de los servidores externos de terceros; todo el material reproducido procede de fuentes ajenas al proyecto, por lo tanto cada usuario es responsable del uso que haga de esta herramienta de acuerdo con las leyes vigentes en su jurisdicción.
+Este complemento actúa exclusivamente como un cliente técnico e indexador automatizado de metadatos y enlaces públicos ya disponibles en Internet. Todo el material reproducido procede de fuentes ajenas al proyecto, por lo tanto cada usuario es responsable del uso que haga.
